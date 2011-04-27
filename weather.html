@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Weather Dashboard</title>
+		<link rel="stylesheet" href="css/weather-styles.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/weather.js"></script>
+	</head>
+	
+	<body class="noheader">
+		<div id="container">
+			<div id="header">
+		    	<h1><a href="/weather.html">Weather <strong>Dashboard</strong></a></h1>
+		        <h2>Powered by CFML &amp; jQuery</h2>
+		        <div class="clear"></div>
+		    </div>
+		    <div id="nav">
+		    	<ul>
+		        	<li class="selected"><a href="weather.html">Home</a></li>
+		        </ul>
+		    </div>
+		    <div id="body">            
+				<div id="content">
+		            <div id="weatherOutput" class="box">
+						<h2>Welcome!</h2>
+						<p>Get started by entering a zip code into the box to the right.</p>
+		            </div>
+		        </div>
+		        <div class="sidebar">
+		            <ul>
+		            	<li>
+		            		<form id="zipForm" action="" method="GET">
+			        			<input type="text" id="zipField" /> <input type="button" id="zipFormButton" class="formbutton" value="Lookup">
+			        		</form>
+		            	</li>
+		               <li>
+		                    <h4><span><strong>Recent </strong>Lookups</span></h4>
+		                    <ul id="recentLookupsList" class="blocklist"></ul>
+		                </li>
+		                <li>
+		                    <h4><span><strong>About </strong>the Dashboard</span></h4>
+		                    <ul>
+		                        <li>
+		                        	<p style="margin: 0;">A simple weather reporting dashboard powered by CFML and jQuery. </p>
+		                        </li>
+		                    </ul>
+		                </li>
+		                <li>
+		                	<h4><strong>Helpful </strong>Sites</h4>
+				            <ul class="blocklist">
+				                <li><a target="_blank" href="http://jquery.com/" title="Official jQuery website">jQuery</a></li>
+				                <li><a target="_blank" href="http://getrailo.org/" title="Railo">Railo CFML Engine</a></li>
+				                <li><a target="_blank" href="http://openbd.org/" title="Open Blue Dragon">Open Blue Dragon CFML Engine</a></li>
+				                <li><a target="_blank" href="http://coldfusion.com/" title="Adobe ColdFusion">Adobe ColdFusion Engine</a></li>
+				                <li><a target="_blank" href="http://stevegood.org/" title="Blog of Steve Good">Steve Good</a></li>
+				            </ul>
+	                	</li>
+		            </ul> 
+		        </div>
+		    	<div class="clear"></div>
+		    </div>
+		</div>
+		 <div id="footer">
+		    <div id="footer-links">
+		    <!-- A link to http://www.spyka.net must remain. To remove link see http://www.spyka.net/licensing -->
+		            <p>&copy; Weather Dashboard 2011. Website design by <a href="http://www.spyka.net">Free CSS Templates</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
+		    </div>  
+		</div>
+	</body>
+</html>

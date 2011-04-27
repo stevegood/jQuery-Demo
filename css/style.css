@@ -1,0 +1,29 @@
+#wrapper {
+	width:700px;
+}
+
+#content {
+	float:left;
+}
+
+#sidebar {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+.even {
+	background-color:aqua;
+}
+
+.odd {
+	background-color:#333;
+	color:#fff;
+}
+
+.big {
+	height:50px;
+	font-size:24px;
+}

@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>jQuery Demo - Static Content</title>
+		
+<!-- 		<link href="css/style.css" rel="stylesheet" /> -->
+<!-- 		<script src="js/jquery.js" type="text/javascript"></script> -->
+<!-- 		<script src="js/static.js" type="text/javascript"></script> -->
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="content">
+				<h1>Welcome to the jQuery Demo!</h1>
+				<div>
+				<!-- Capture the data coming from this form and display it in the results div below -->
+					<form id="contact" action="" method="POST">
+						<fieldset>
+							<legend>Contact Us</legend>
+							<label for="name">Your Name</label><br/>
+							<input type="text" name="name" id="name" class="big" />
+							<button type="submit" class="button">Submit</button>
+						</fieldset>
+					</form>
+				</div>
+				
+				<!-- Small buttons are great, but BIG buttons are BETTER! Make them all BIG -->
+				<button id="showHideBtn" class="button">Show / Hide</button>
+				<div id="results"></div>
+			</div>
+			
+			<div id="sidebar">
+				<p>Some helpful links</p>
+				<ul>
+					<!-- Links that are pointing at external domains should have target="_blank" appended to them -->
+					<li><a href="http://jquery.demo.local:8888/">This Demo Page</a></li>
+					<li><a href="http://jquery.com/">jQuery Website</a></li>
+					<li><a href="http://api.jquery.com/">jQuery API &amp; Docs</a></li>
+					<li><a href="http://jqueryui.com/">jQuery UI</a></li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+	</body>
+</html>

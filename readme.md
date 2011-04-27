@@ -6,7 +6,7 @@ This is a collection of demos written to assist in teaching jQuery.  Please cons
 
 - Intro : index.html
 	- Demonstrates some of the basics of using jQuery
-- Weather Dashboard
+- Weather Dashboard : weather.html
 	- Further demonstrates the basics while also introducing:
 		- Event binding and triggering
 		- Custom events
